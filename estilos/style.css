@@ -1,0 +1,71 @@
+html,body {
+    background-image: url(../Resources/Images/Globos.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: auto; 
+    width: 450px;
+    background-color: rgba(0,0,0,0.7); 
+    padding: 20px;
+}
+
+.card-header h3 {
+    text-align: center;
+    background-color: rgba(71, 156, 63, 0.7);
+}
+
+.campo-usuario,
+.campo-clave {
+    margin-bottom: 20px;
+}
+
+.campo-usuario label,
+.campo-clave label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.campo-usuario input,
+.campo-clave input {
+    width: calc(100% - 20px); 
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login_btn, .atras_btn {
+    color: #fff;
+    background-color: #10f354; 
+    width: 100%; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+}
+
+.login_btn:hover, .atras_btn:hover {
+    color: #000; 
+    background-color: #fff;
+}
+
+
+.links {
+    color: #d30e0e;
+    margin-top: 10px;
+}
+
+.links a {
+    margin-left: 10px;
+}

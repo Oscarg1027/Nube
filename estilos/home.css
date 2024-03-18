@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100;
+    
+}
+
+.container {
+    text-align: center;
+    background-color: #610bec; 
+}
